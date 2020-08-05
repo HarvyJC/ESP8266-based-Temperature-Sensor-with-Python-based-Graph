@@ -8,6 +8,9 @@ Just change both (192, 168, 22, 21) to the IP address you want to use.
 I used 192.168.22.21 so that it doesn't interfere with other devices in my network. 
 Be sure that when you adjust the Arduino code, you also adjust the url in the Python code.
 
+Also note that the temperature values aren't shown in the Python console, only in the graph as a title.
+The graph doesn't show the high and low series, but it can be seen in the title of the graph.
+
 ````
 Arduino (ESP_MICRO.h):
 WiFi.config(IPAddress(192, 168, 22, 21), IPAddress(192, 168, 22, 21), IPAddress(255, 255, 255, 0));
@@ -17,7 +20,4 @@ url = "http://192.168.22.22"
 ````
 
 I suggest you go to his Github to better understand how his code works.
-
-Also note that the temperature values aren't shown in the Python console, only in the graph as a title.
-
 ***
