@@ -1,4 +1,4 @@
-# ESP8266-based-Temperature-Sensor-with-Python-based-Graph
+# ESP8266-based Temperature-Sensor with Python-based Graph
 
 ***
 I used KebabLord's esp2python as a base of my code, both Arduino and Python. 
