@@ -18,4 +18,6 @@ url = "http://192.168.22.22"
 
 I suggest you go to his Github to better understand how his code works.
 
+Also note that the temperature values aren't shown in the Python console, only in the graph as a title.
+
 ***
